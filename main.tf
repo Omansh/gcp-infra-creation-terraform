@@ -164,7 +164,7 @@ resource "google_compute_region_instance_group_manager" "mig" {
     instance_template  = google_compute_instance_template.custom-template.self_link
   }
   region             = "us-central1"
-  target_size        = 3
+  target_size        = 2
   wait_for_instances = true
 
   timeouts {
