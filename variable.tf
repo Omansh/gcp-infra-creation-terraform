@@ -54,5 +54,5 @@ variable "custom_template_name" {
 
 variable "custom_template_machine_type" {
   type = string
-  default = "e2-small"
+  default = "e2-micro"
 }
